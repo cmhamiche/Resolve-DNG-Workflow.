@@ -4,7 +4,6 @@ It's using a fusion composition with AgX and a simple power grade to serve as a 
 Works with the free DaVinci Resolve version. 
 
 Installation:
-
 Uncompress the Grades folder in "C:\ProgramData\Blackmagic Design\DaVinci Resolve\"
 
 Usage:
