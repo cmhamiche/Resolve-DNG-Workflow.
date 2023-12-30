@@ -1,4 +1,4 @@
-# Resolve grade for DNG 
+# Simple Resolve grade for DNG 
 
 It's using a fusion composition with AgX and a simple power grade to serve as a base for a grade.
 Works with the free DaVinci Resolve version. 
