@@ -7,4 +7,4 @@ Works with the free DaVinci Resolve version.
 - In the Color tab, import the Power Grade from "C:\ProgramData\Blackmagic Design\DaVinci Resolve\Grades\AgX.drx" and adjust temperature and exposure values in Camera Raw.
 
 
-Default is raw interpreted as rec.709/srgb to srgb/AgX Punchy but you can use linear and base AgX for exemple.
+Default is raw interpreted as rec.709/srgb to srgb/AgX Punchy but you can use linear and AgX Base for exemple.
