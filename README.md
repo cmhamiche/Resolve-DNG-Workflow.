@@ -20,9 +20,9 @@ Adjust temperature and exposure values in Camera Raw.
 
 The OCIO config should point to C:\ProgramData\Blackmagic Design\DaVinci Resolve\Grades\AgX\config.ocio
 
-Default is raw interpreted as rec.709/srgb to srgb/AgX Punchy but you can use linear and AgX Base for exemple.
+Default is raw interpreted as rec.709/sRGB to AgX Punchy/sRGB but you can use rec.709/linear and AgX Base/linear for exemple.
 
-For simplicity sake, I sticked to DaVinci YRGB as color science et rec.709 (scene) for both timeline color space, If you use DaVinci Wide Gamut/Intermediate, adjust your curve accordingly.
+For simplicity sake, I sticked to DaVinci YRGB as color science et rec.709 (scene) for the timeline color space, If you use DaVinci Wide Gamut/Intermediate, adjust your curve accordingly.
 
 To copy/paste to all your clips, select your clips with shift then middle click, whether you are in the fusion or the color tab.
 
