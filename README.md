@@ -18,7 +18,7 @@ For the people in the back: AgX.comp and AgX.drx are in "C:\ProgramData\Blackmag
 
 Adjust temperature and exposure values in Camera Raw.
 
-The OCIO config should point to C:\ProgramData\Blackmagic Design\DaVinci Resolve\Grades\AgX\config.ocio
+The OCIO config of fusion's node named OCIOColorspace1 should point to C:\ProgramData\Blackmagic Design\DaVinci Resolve\Grades\AgX\config.ocio
 
 Default is raw interpreted as rec.709/sRGB to fusion AgX Punchy/sRGB but you can use rec.709/linear and AgX Base/linear for exemple.
 
