@@ -1,18 +1,18 @@
-## Resolve grade for DNG 
+# Resolve grade for DNG 
 
 It's using a fusion composition with AgX and a simple power grade to serve as a base for a grade.
 Works with the free DaVinci Resolve version. 
 
-# Installation:
+## Installation:
 Uncompress the Grades folder in "C:\ProgramData\Blackmagic Design\DaVinci Resolve\"
 
-# Usage:
+## Usage:
 
 - In the Fusion tab, import the Fusion Composition named AgX.comp. Copy, paste to all your fusion clips.
 
 - In the Color tab, import the Power Grade named AgX.drx. Copy, paste to all your clips 
 
-# Quick notes: 
+## Quick notes: 
 
 For the people in the back: AgX.comp and AgX.drx are in "C:\ProgramData\Blackmagic Design\DaVinci Resolve\Grades"
 
