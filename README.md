@@ -17,6 +17,7 @@ Uncompress the Grades folder in "C:\ProgramData\Blackmagic Design\DaVinci Resolv
 For the people in the back: AgX.comp and AgX.drx are in "C:\ProgramData\Blackmagic Design\DaVinci Resolve\Grades"
 
 Adjust temperature and exposure values in Camera Raw.
+
 The OCIO config should point to C:\ProgramData\Blackmagic Design\DaVinci Resolve\Grades\AgX\config.ocio
 
 Default is raw interpreted as rec.709/srgb to srgb/AgX Punchy but you can use linear and AgX Base for exemple.
