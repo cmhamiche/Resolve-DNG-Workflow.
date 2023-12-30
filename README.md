@@ -1,4 +1,5 @@
-# This is a base grade for DNG using a fusion composition with AgX and a simple power grade.
+# Resolve grade for DNG 
+It's using a fusion composition with AgX and a simple power grade.
 Works with the free DaVinci Resolve version. 
 
 Uncompress the Grades folder in C:\ProgramData\Blackmagic Design\DaVinci Resolve\
