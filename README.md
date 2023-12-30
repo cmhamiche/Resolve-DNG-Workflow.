@@ -1,4 +1,5 @@
-Works with the free DaVinci Resolve version. This is a base grade for DNG using a fusion composition with AgX and a simple power grade.
+#This is a base grade for DNG using a fusion composition with AgX and a simple power grade.
+Works with the free DaVinci Resolve version. 
 
 Uncompress the Grades folder in C:\ProgramData\Blackmagic Design\DaVinci Resolve\
 In the Fusion tab, import the Fusion Composition named AgX.comp.
