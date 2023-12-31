@@ -8,9 +8,9 @@ Uncompress the Grades folder in "C:\ProgramData\Blackmagic Design\DaVinci Resolv
 
 ## Usage:
 
-- In the Fusion tab, import the Fusion Composition named AgX.comp. Copy, paste to all your fusion clips.
+- In the Fusion tab, import the Fusion Composition named AgX.comp (File->Import->Fusion Composition...). Copy, paste to all your fusion clips.
 
-- In the Color tab, import the Power Grade named AgX.drx. Copy, paste to all your clips 
+- In the Color tab, import the Power Grade named AgX.drx (Right click on the Gallery, Import). Copy, paste to all your clips 
 
 ## Quick notes: 
 
