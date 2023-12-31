@@ -22,9 +22,9 @@ The OCIO config of fusion's node named OCIOColorspace1 should point to "C:\Progr
 
 If you uncompress the files elsewhere you'll have to fix the paths and save your composition and power grade.
 
-Default is raw interpreted as rec.709/sRGB to fusion AgX Punchy/sRGB but you can use rec.709/linear and AgX Base/linear for exemple.
+Default is raw interpreted as rec.709/sRGB to fusion AgX Base/sRGB but you can use rec.709/linear and AgX Punchy/linear for exemple.
 
-For simplicity sake, I sticked to DaVinci YRGB as color science et rec.709 (scene) for the timeline color space, If you use DaVinci Wide Gamut/Intermediate, adjust your curve accordingly.
+For simplicity sake, I sticked to DaVinci YRGB as color science et rec.709 (scene) for the timeline and output color space, If you use DaVinci Wide Gamut/Intermediate, adjust your curve accordingly.
 
 FYI, to copy/paste to all your clips, select your clips with shift then middle click, whether you are in the fusion or the color tab.
 
