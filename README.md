@@ -20,7 +20,7 @@ For the people in the back: AgX.comp and AgX.drx are in "C:\ProgramData\Blackmag
 
 The OCIO config of fusion's node named OCIOColorspace1 should point to "C:\ProgramData\Blackmagic Design\DaVinci Resolve\Grades\AgX\config.ocio".
 
-If you uncompress the files elsewhere you'll have to fix the paths and save your composition and power grade.
+If you uncompress the files elsewhere you might have to fix the paths and then save your composition and power grade again.
 
 Default is raw interpreted as rec.709/sRGB to fusion AgX Base/sRGB but you can use rec.709/linear and AgX Punchy/linear for exemple.
 
