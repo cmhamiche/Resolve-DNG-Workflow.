@@ -28,3 +28,5 @@ For simplicity sake, I have sticked to DaVinci YRGB as color science and rec.709
 
 FYI, to copy/paste to all your clips, select your clips with shift then middle click, whether you are in the fusion or the color tab.
 
+It's using https://github.com/sobotka/AgX-Resolve.
+
