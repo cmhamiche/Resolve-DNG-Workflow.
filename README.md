@@ -14,7 +14,7 @@ Uncompress the "Grades" folder in "C:\ProgramData\Blackmagic Design\DaVinci Reso
 
 ## Quick notes: 
 
-Adjust temperature and exposure values in Camera Raw. Enable Highlight Recovery if needed. There's a red shift since tint is at 10 by default, put that value at 0 for Daylight temperature.
+Adjust temperature and exposure values in Camera Raw. Enable Highlight Recovery if needed. There's a red shift since tint is at 10 by default, put that value at 0 for daylight temperatures.
 
 For the people in the back: AgX.comp and AgX.drx are in "C:\ProgramData\Blackmagic Design\DaVinci Resolve\Grades".
 
