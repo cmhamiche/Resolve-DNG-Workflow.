@@ -1,8 +1,8 @@
 Composition {
 	CurrentTime = 0,
-	RenderRange = { 0, 118 },
-	GlobalRange = { 0, 118 },
-	CurrentID = 6,
+	RenderRange = { 0, 720 },
+	GlobalRange = { 0, 720 },
+	CurrentID = 42,
 	HiQ = true,
 	PlaybackUpdateMode = 0,
 	Version = "DaVinci Resolve Studio 18.6.2.0002",
@@ -17,43 +17,50 @@ Composition {
 	Tools = {
 		MediaIn1 = Loader {
 			ExtentSet = true,
-			CustomData = {
-				MediaProps = {
+			CustomData = { MediaProps = {
 					MEDIA_AUDIO_TRACKS_DESC = {
 						{
 							MEDIA_AUDIO_BIT_DEPTH = 32,
-							MEDIA_AUDIO_FRAME_RATE = 1,
+							MEDIA_AUDIO_FRAME_RATE = 23.976023976024,
 							MEDIA_AUDIO_NUM_CHANNELS = 2,
 							MEDIA_AUDIO_SAMPLE_RATE = 48000,
 							MEDIA_AUDIO_START_TIME = 0,
 							MEDIA_AUDIO_TRACK_ID = "Timeline Audio",
 							MEDIA_AUDIO_TRACK_NAME = "Timeline Audio [Timeline 1]"
+						},
+						{
+							MEDIA_AUDIO_BIT_DEPTH = 32,
+							MEDIA_AUDIO_FRAME_RATE = 23.976023976024,
+							MEDIA_AUDIO_NUM_CHANNELS = 2,
+							MEDIA_AUDIO_SAMPLE_RATE = 48000,
+							MEDIA_AUDIO_START_TIME = 0,
+							MEDIA_AUDIO_TRACK_ID = "d905abc5-2277-4099-9af6-3ac262098171",
+							MEDIA_AUDIO_TRACK_NAME = "M31-1052_1_2023-12-31_0001_C0000_[000000-000720].dng"
 						}
 					},
-					MEDIA_AUDIO_TRACKS_NUM = 1,
+					MEDIA_AUDIO_TRACKS_NUM = 2,
 					MEDIA_FORMAT_TYPE = "DNG",
 					MEDIA_HAS_AUDIO = true,
-					MEDIA_HEIGHT = 1308,
+					MEDIA_HEIGHT = 2268,
 					MEDIA_IS_SOURCE_RES = true,
 					MEDIA_LAYER_DESC = {
 					},
 					MEDIA_MARK_IN = 0,
-					MEDIA_MARK_OUT = 118,
-					MEDIA_NAME = "M23-1212_frame_56.dng",
-					MEDIA_NUM_FRAMES = 119,
+					MEDIA_MARK_OUT = 720,
+					MEDIA_NAME = "M31-1052_1_2023-12-31_0001_C0000_[000000-000720].dng",
+					MEDIA_NUM_FRAMES = 721,
 					MEDIA_NUM_LAYERS = 0,
 					MEDIA_PAR = 1,
-					MEDIA_PATH = "C:\\Users\\Windows\\Pictures\\Resolve Color Science\\dng\\M23-1212_frame_56.dng",
+					MEDIA_PATH = "C:\\Users\\Windows\\Desktop\\M31-1052_1_2023-12-31_0001_C0000\\M31-1052_1_2023-12-31_0001_C0000_[000000-000720].dng",
 					MEDIA_SRC_FRAME_RATE = 23.976023976024,
 					MEDIA_START_FRAME = 0,
-					MEDIA_WIDTH = 3072
-				},
-			},
+					MEDIA_WIDTH = 1664
+				}, },
 			Inputs = {
-				GlobalOut = Input { Value = 118, },
+				GlobalOut = Input { Value = 720, },
 				AudioTrack = Input { Value = FuID { "Timeline Audio" }, },
 				Layer = Input { Value = "0", },
-				ClipTimeEnd = Input { Value = 118, },
+				ClipTimeEnd = Input { Value = 720, },
 				["Gamut.SLogVersion"] = Input { Value = FuID { "SLog2" }, },
 				LeftAudio = Input {
 					SourceOp = "Left",
@@ -64,37 +71,17 @@ Composition {
 					Source = "Data",
 				},
 			},
-			ViewInfo = OperatorInfo { Pos = { 55, 50.1061 } },
+			ViewInfo = OperatorInfo { Pos = { 55, 49.5 } },
 			Clips = {
 				Clip {
 					ID = "Clip1",
-					Multiframe = true,
-					Filename = "C:\\Users\\Windows\\Pictures\\Resolve Color Science\\dng\\M23-1212_frame_56.dng",
-					Length = 119,
+					Filename = "C:\\Users\\Windows\\Desktop\\M31-1052_1_2023-12-31_0001_C0000\\M31-1052_1_2023-12-31_0001_C0000_000000.dng",
+					Length = 721,
 					LengthSetManually = true,
-					GlobalEnd = 118,
-					TrimOut = 118,
+					GlobalEnd = 720,
+					TrimOut = 720,
 				}
 			}
-		},
-		Left = AudioDisplay {
-		},
-		Right = AudioDisplay {
-			CtrlWZoom = false,
-		},
-		OCIOColorspace1 = OCIOColorSpace {
-			CtrlWZoom = false,
-			Inputs = {
-				OCIOConfig = Input { Value = "C:\\ProgramData\\Blackmagic Design\\DaVinci Resolve\\Grades\\AgX\\config.ocio", },
-				SourceSpace = Input { Value = FuID { "sRGB" }, },
-				OutputSpace = Input { Value = FuID { "Appearance Punchy sRGB" }, },
-				Look = Input { Value = FuID { "None" }, },
-				Input = Input {
-					SourceOp = "MediaIn1",
-					Source = "Output",
-				},
-			},
-			ViewInfo = OperatorInfo { Pos = { 290.667, 41.9091 } },
 		},
 		MediaOut1 = Saver {
 			Inputs = {
@@ -105,6 +92,26 @@ Composition {
 				},
 			},
 			ViewInfo = OperatorInfo { Pos = { 605, 49.5 } },
+		},
+		OCIOColorspace1 = OCIOColorSpace {
+			CtrlWZoom = false,
+			Inputs = {
+				OCIOConfig = Input { Value = "C:\\Users\\Windows\\Documents\\Christophe\\Resolve\\Grades\\AgX-main\\config.ocio", },
+				SourceSpace = Input { Value = FuID { "sRGB" }, },
+				OutputSpace = Input { Value = FuID { "AgX Base" }, },
+				Look = Input { Value = FuID { "None" }, },
+				Input = Input {
+					SourceOp = "MediaIn1",
+					Source = "Output",
+				},
+			},
+			ViewInfo = OperatorInfo { Pos = { 340.667, 47.3636 } },
+		},
+		Right = AudioDisplay {
+			CtrlWZoom = false,
+		},
+		Left = AudioDisplay {
+			CtrlWZoom = false,
 		}
 	},
 	Frames = {
@@ -120,10 +127,10 @@ Composition {
 			ZoneInfo = { ["!Right"] = {
 				}, ["!Left"] = {
 				}, AuxLeft = { Expanded = true }, Right = { Expanded = true, }, Left = { Expanded = false, }, AuxRight = { Expanded = true } },
-			ViewInfo = { Viewer1 = { Show = true, RatioY = 0.01, RatioX = 1, }, InnerLeft = {
-				}, MainSplit = { RatioX = 100, RatioY = 0.85410764872521, }, CenterSplit = { RatioX = 1, RatioY = 100, }, Viewer2 = { Show = true, RatioY = 0.01, RatioX = 1, }, Comments = { Show = false }, Time = { Show = true, RatioX = 100, }, InnerColumns = { RatioX = 100, RatioY = 2.14589235127478, }, Keyframes = { Show = false, }, LayoutStrip = { Show = true, }, Inspector = { Show = true, RatioY = 1, RatioX = 100, }, InnerRight = {
-				}, ActionStrip = { Show = true, RatioX = 100, }, OuterColumns = { RatioX = 100, RatioY = 1, }, Effects = { Show = false, }, Clips = { Show = true, Adjust = false, MRU = 1, RatioX = 100, }, Metadata = { Show = false, }, OuterLeft = {
-				}, ViewerSplit = { RatioX = 100, RatioY = 1, }, Nodes = { Show = true, RatioY = 100, RatioX = 1, }, OuterRight = { RatioY = 100, PixelX = 420, }, MediaPool = { Show = false, }, Spline = { Show = false, } },
+			ViewInfo = { Viewer1 = { Show = true, RatioX = 1, RatioY = 0.01, }, InnerLeft = {
+				}, MainSplit = { RatioX = 100, RatioY = 0.85410764872521, }, CenterSplit = { RatioX = 1, RatioY = 100, }, Viewer2 = { Show = true, RatioX = 1, RatioY = 0.01, }, Comments = { Show = false }, Time = { Show = true, RatioX = 100, }, InnerColumns = { RatioX = 100, RatioY = 2.14589235127478, }, Keyframes = { Show = false, }, LayoutStrip = { Show = true, }, Inspector = { Show = true, RatioX = 100, RatioY = 1, }, InnerRight = {
+				}, ActionStrip = { Show = true, RatioX = 100, }, OuterColumns = { RatioX = 100, RatioY = 1, }, Effects = { Show = false, }, Clips = { Show = true, Adjust = false, RatioX = 100, MRU = 1 }, Metadata = { Show = false, }, OuterLeft = {
+				}, ViewerSplit = { RatioX = 100, RatioY = 1, }, Nodes = { Show = true, RatioX = 1, RatioY = 100, }, OuterRight = { RatioY = 100, PixelX = 420, }, MediaPool = { Show = false, }, Spline = { Show = false, } },
 			Views = ordered() {
 				MediaPool = "MediaPoolView",
 				Effects = MultiView {
@@ -167,7 +174,7 @@ Composition {
 						KeyFrameView = {
 							Position = { Left = 232, Bottom = 324 },
 							ScaleX = 2.12765957446809,
-							OffsetX = -57.4468085106384,
+							OffsetX = -59.5744680851065,
 							OffsetY = 0,
 							AutoScaling = "scroll",
 							AutoSnapTo = "frame",
@@ -234,87 +241,57 @@ Composition {
 	},
 	Prefs = {
 		Comp = {
-			Paths = {
-				Map = {
-					["ResolveCaches:"] = "C:\\Users\\Windows\\CacheClip\\bc3782f2-9ccc-4e27-9e20-f56dd5c55dbe\\1563e699-6e85-4725-9e87-acef61f4ba10\\e0d759d1-e3b3-45d1-a7fd-aa881bee481a\\Fusion"
-				},
-			},
-			LastFile = "C:\\Users\\Windows\\Documents\\Christophe\\Resolve\\Grades\\AgX-main\\config.ocio",
 			Interactive = {
 				Proxy = {
 					Scale = 1,
 				},
 			},
-			FrameFormat = {
-				GuideRatio = 1.77777777777778,
-				DepthInteractive = 3,
-				DepthPreview = 3,
-				Rate = 1,
-				Width = 3072,
-				DepthFull = 3,
-				Height = 1308,
-			},
-			Unsorted = {
-				GlobalEnd = 118,
-			},
 			Views = {
 				RightView = {
-					SideB = {
-						PrevCtrlInactiveColor = 4278255360,
-						PickW = 1,
-						PickH = 1,
-						PrevCtrlActiveColor = 4278190335,
-						Viewer = {
-							EnableLUTs = false,
-							LUTPlugin = "FusionViewLUT",
-							FitMarginY = 0,
-							FitMarginX = 0,
-							FitMarginType = 0,
-							FarZ = -1000,
-							NearZ = 0
-						}
-					},
 					Viewer = {
+						EnableLUTs = true,
 					},
+					SideB = { PrevCtrlInactiveColor = 4278255360, PickW = 1, PickH = 1, PrevCtrlActiveColor = 4278190335, Viewer = { EnableLUTs = false, LUTPlugin = "FusionViewLUT", NearZ = 0, FitMarginX = 0, FitMarginType = 0, FarZ = -1000, FitMarginY = 0 } },
+					ViewLUT = { {
+							Tools = ordered() {
+								FusionViewLUT = ViewLUTOp {
+									CtrlWZoom = false,
+									NameSet = true,
+									Inputs = {
+									},
+								}
+							},
+							ID = "FusionViewLUT"
+						}, SelectedPlugin = "FusionViewLUT", SelectedName = "", Recent = { SelectedPlugin = "FusionViewLUT", FusionViewLUT = { Tools = ordered() { FusionViewLUT = ViewLUTOp { Inputs = { Red = Input { SourceOp = "FusionViewLUTRed", Source = "Value" }, Blue = Input { SourceOp = "FusionViewLUTBlue", Source = "Value" }, Alpha = Input { SourceOp = "FusionViewLUTAlpha", Source = "Value" }, Green = Input { SourceOp = "FusionViewLUTGreen", Source = "Value" } }, CtrlWZoom = false, NameSet = true, Tools = { FusionViewLUTBlue = LUTBezier { CtrlWZoom = false, SplineColor = { Red = 0, Blue = 0, Green = 0 }, KeyColorSplines = { [0] = { [0] = { 0, RH = { 0.333333333333333, 0.333333333333333 }, Flags = { Linear = true } }, [1] = { 1, LH = { 0.666666666666667, 0.666666666666667 }, Flags = { Linear = true } } } }, NameSet = true }, FusionViewLUTGreen = LUTBezier { CtrlWZoom = false, SplineColor = { Red = 0, Blue = 0, Green = 0 }, KeyColorSplines = { [0] = { [0] = { 0, RH = { 0.333333333333333, 0.333333333333333 }, Flags = { Linear = true } }, [1] = { 1, LH = { 0.666666666666667, 0.666666666666667 }, Flags = { Linear = true } } } }, NameSet = true }, FusionViewLUTRed = LUTBezier { CtrlWZoom = false, SplineColor = { Red = 0, Blue = 0, Green = 0 }, KeyColorSplines = { [0] = { [0] = { 0, RH = { 0.333333333333333, 0.333333333333333 }, Flags = { Linear = true } }, [1] = { 1, LH = { 0.666666666666667, 0.666666666666667 }, Flags = { Linear = true } } } }, NameSet = true }, FusionViewLUTAlpha = LUTBezier { CtrlWZoom = false, SplineColor = { Red = 0, Blue = 0, Green = 0 }, KeyColorSplines = { [0] = { [0] = { 0, RH = { 0.333333333333333, 0.333333333333333 }, Flags = { Linear = true } }, [1] = { 1, LH = { 0.666666666666667, 0.666666666666667 }, Flags = { Linear = true } } } }, NameSet = true } } } } }, SelectedName = "" } },
 				},
 				LeftView = {
-					SideB = {
-						PrevCtrlInactiveColor = 4278255360,
-						PickW = 1,
-						PickH = 1,
-						PrevCtrlActiveColor = 4278190335,
-						Viewer = {
-							EnableLUTs = false,
-							LUTPlugin = "FusionViewLUT",
-							FitMarginY = 0,
-							FitMarginX = 0,
-							FitMarginType = 0,
-							FarZ = -1000,
-							NearZ = 0
-						}
-					},
+					SideB = { PrevCtrlInactiveColor = 4278255360, PickW = 1, PickH = 1, PrevCtrlActiveColor = 4278190335, Viewer = { EnableLUTs = false, LUTPlugin = "FusionViewLUT", NearZ = 0, FitMarginX = 0, FitMarginType = 0, FarZ = -1000, FitMarginY = 0 } },
 				},
 				View1 = {
 					PrevCtrlInactiveColor = 4278255360,
 					PickW = 1,
 					PickH = 1,
-					SideB = {
-						PrevCtrlInactiveColor = 4278255360,
-						PickW = 1,
-						PickH = 1,
-						PrevCtrlActiveColor = 4278190335,
-						Viewer = {
-							EnableLUTs = false,
-							LUTPlugin = "FusionViewLUT",
-							FitMarginY = 0,
-							FitMarginX = 0,
-							FitMarginType = 0,
-							FarZ = -1000,
-							NearZ = 0
-						}
-					},
 					PrevCtrlActiveColor = 4278190335,
+					SideB = { PrevCtrlInactiveColor = 4278255360, PickW = 1, PickH = 1, PrevCtrlActiveColor = 4278190335, Viewer = { EnableLUTs = false, LUTPlugin = "FusionViewLUT", NearZ = 0, FitMarginX = 0, FitMarginType = 0, FarZ = -1000, FitMarginY = 0 } }
 				},
+			},
+			Paths = {
+				Map = {
+					["ResolveCaches:"] = "C:\\Users\\Windows\\CacheClip\\72d92e67-39cd-478a-b1ca-f4dee7c3a725\\071def7b-760b-4627-9c3d-25ee8c72de4a\\80e02742-5a23-4392-9280-f5f05ca9b8ec\\Fusion"
+				},
+			},
+			FrameFormat = {
+				Width = 1664,
+				Height = 2268,
+				Rate = 23.9760246276855,
+				GuideRatio = 1.77777777777778,
+				DepthFull = 3,
+				DepthPreview = 3,
+				DepthInteractive = 3,
+			},
+			LastFile = "C:\\Users\\Windows\\Documents\\Christophe\\Resolve\\Grades\\AgX-main\\config.ocio",
+			Unsorted = {
+				GlobalEnd = 720
 			},
 		}
 	},
