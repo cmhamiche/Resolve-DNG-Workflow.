@@ -17,7 +17,9 @@ Works with the free DaVinci Resolve version.
 Save your Fusion composition (File->Export->Fusion Composition...), so you don't have to set the path anymore.
 You could also edit AgX_lin.comp, search for OCIOConfig = Input { Value = 
 
-FYI, to copy/paste to all your clips, select your clips with shift then middle click, whether you are in the fusion or the color tab.
+FYI, to copy/paste to all your clips, select your clips with shift then middle click, whether you are in the Fusion or the Color tab (to quickly set everything to Linear).
+
+If your playback isn't realtime you can set you playback resolution to half (Playback->Timeline Proxy Resolution->Half). Works great if you want to start editing/grading while MLVApp is still dumping.
 
 It's using https://github.com/sobotka/AgX-Resolve.
 
