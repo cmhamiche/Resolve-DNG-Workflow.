@@ -9,7 +9,7 @@ Works with the free DaVinci Resolve version.
 - In the Color tab, select those Camera Raw settings: Color Space Rec.709, Gamma Linear, Tick Highlight Recovery if needed.
 - In the Fusion tab, import AgX_lin.comp (File->Import->Fusion Composition...) 
 - Click on the middle node named AgX and set the OCIO config path to the config.ocio (Browse). Source should be Linear BT.709, Output Space AgX Base and Look None.
-- Copy/paste to all your fusion clips.
+- Copy/paste to all your fusion clips. You can switch back to the Color Tab ti finish your grade.
 
 
 ## Quick notes: 
