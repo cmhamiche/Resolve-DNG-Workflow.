@@ -5,7 +5,7 @@ A fusion composition to serve as a base grade for DNG sequences. Works with the 
 The way Resolve's Camera Raw color space handles DNG is different than other RAW files: it doesn't clip regardless of the timeline and it's display referred. 
 Those are the main issues we're trying to solve here. It is comprised of a curve, a tone mapper and few saturation adjustments.
 
-It's graded according to my taste and might be subject to change.
+It's graded according to my taste and might be subject to change. It's using https://github.com/sobotka/AgX-Resolve.
 
 
 ## Usage:
@@ -25,11 +25,10 @@ It's graded according to my taste and might be subject to change.
 
 ## Quick notes: 
 
-Save your Fusion composition (File->Export->Fusion Composition...), so you don't have to set the path anymore.
-You could also edit AgX_lin.comp, search for OCIOConfig = Input { Value = 
+Works whether you are in the Fusion or the Color tab: to copy/paste settings to all your clips (set everything to Linear for exemple), select your ungraded clips with shift,  middle click on the clip you want to copy from. 
 
-To copy/paste settings to all your clips (to quickly set everything to Linear for exemple), select your ungraded clips with shift, then middle click on the clip you want to copy from. Works whether you are in the Fusion or the Color tab.
+Save your Fusion composition (File->Export->Fusion Composition...), so you don't have to set the path anymore.
 
 If your playback isn't realtime you can set you playback resolution to half (Playback->Timeline Proxy Resolution->Half). Works great if you want to start editing/grading while MLVApp is still dumping.
 
-It's using https://github.com/sobotka/AgX-Resolve.
+You can edit AgX_lin.comp with a text editor, search for OCIOConfig = Input { Value = 
