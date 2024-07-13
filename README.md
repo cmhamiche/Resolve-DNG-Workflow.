@@ -12,7 +12,7 @@ It's graded according to my taste and might be subject to change. It's using htt
 
 - "Timeline" should be set at "DaVinci WG/Intermediate" and "Output" to "Rec 709 Gamma 2.4"
   
-![1  Color Management](https://github.com/user-attachments/assets/7ebe9465-b039-4d42-921e-1668ca289af9)
+![1  Color Management](https://github.com/user-attachments/assets/59c6d16e-b9ef-4ba2-adf8-7818d9465725)
 
 - In the "Color" tab, select those "Camera Raw" settings: "Color Space" "Rec.709", "Gamma" "Linear". You might get some harsh highlights clipping if you tick "Highlight Recovery" so double check.
   
