@@ -2,8 +2,9 @@
 
 A fusion composition to serve as a base grade for DNG sequences. Works with the free DaVinci Resolve version. 
 
-Resolve's Camera Raw color space for DNG doesn't clip colors regardless of the timeline and it's display referred, those are the main issues we're trying to solve here.
-It's graded according to my taste and might be subject to change. It is comprised of a curve, a tone mapper and few saturation adjustments.
+The way Resolve's Camera Raw color space handles DNG is different than other RAW files: it doesn't clip regardless of the timeline and it's display referred. 
+Those are the main issues we're trying to solve here. It is comprised of a curve, a tone mapper and few saturation adjustments.
+It's graded according to my taste and might be subject to change.
 
 
 ## Usage:
