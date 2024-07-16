@@ -23,7 +23,7 @@ Copy/paste (middle click) to all your fusion clips. You can switch to the "Color
 
 #### 2. In the "Color" tab, change this "Camera Raw" settings: "Gamma" "Linear".
 
-Copy/paste (middle click) to all your clips. You can adjust your exposure, lift, temperature, tint if needed and start grading as usual.
+Copy/paste (middle click) to all your clips. You can adjust your Raw settings (like exposure, temperature, etc) if needed and start grading as usual.
   
 ![2  Camera Raw](https://github.com/user-attachments/assets/64492b10-b181-4220-bb86-f8411279d62b)
 
