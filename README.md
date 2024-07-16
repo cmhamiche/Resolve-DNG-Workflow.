@@ -35,7 +35,7 @@ Alternatively, you can edit AgX_lin.comp to set the path with a text editor, sea
 
 - **If your playback isn't realtime you can set you playback resolution to half (Playback->Timeline Proxy Resolution->Half).** Works great if you want to start editing/grading while MLVApp is still dumping.
 
-- If you tick "Highlight Recovery" you might get some bad banding (low saturation is fine, like recovering details on a white object).
+- If you tick "Highlight Recovery" you might get some bad banding where it's overexposed (low saturation is fine, like recovering details on a white object).
 
 - To copy/paste settings to all your clips (set everything to Linear for exemple), select your ungraded clips with shift and then middle click on the clip you want to copy from. Works whether you are in the Fusion or the Color tab.
 
