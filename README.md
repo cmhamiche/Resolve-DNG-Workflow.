@@ -13,12 +13,12 @@ https://github.com/user-attachments/assets/5b308fdc-5dc6-4111-9aad-328613015d19
 
 ## Usage:
 
-### (Optional) "Timeline" should be set at "DaVinci WG/Intermediate" ("Rec 709 Scene" is also fine) "and "Output" to "Rec 709 Gamma 2.4"
+#### (Optional) "Timeline" should be set at "DaVinci WG/Intermediate" ("Rec 709 Scene" is also fine) "and "Output" to "Rec 709 Gamma 2.4"
   
 ![1  Color Management](https://github.com/user-attachments/assets/59c6d16e-b9ef-4ba2-adf8-7818d9465725)
 
 
-### In the "Color" tab, change this "Camera Raw" settings: "Gamma" "Linear".
+#### In the "Color" tab, change this "Camera Raw" settings: "Gamma" "Linear".
 
 You might get some bad banding if you tick "Highlight Recovery" (low saturation is fine, like recovering details on a white object).
 
@@ -26,7 +26,7 @@ Copy/paste (middle click) to all your clips
   
 ![2  Camera Raw](https://github.com/user-attachments/assets/64492b10-b181-4220-bb86-f8411279d62b)
 
-### In the "Fusion" tab, import "AgX_lin.comp" (File ->Import->Fusion Composition...)
+#### In the "Fusion" tab, import "AgX_lin.comp" (File ->Import->Fusion Composition...)
 
 Click on the middle node named "AgX" and set the "OCIO config path" to the "config.ocio" (Browse). Source should be "Linear BT.709", "Output Space" "AgX Base" and "Look" "None".
 
