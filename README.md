@@ -39,11 +39,11 @@ Alternatively, you can edit AgX_lin.comp to set the path with a text editor, sea
 
 - To copy/paste settings to all your clips (set everything to Linear for exemple), select your ungraded clips with shift and then middle click on the clip you want to copy from. Works whether you are in the Fusion or the Color tab.
 
-- (Optional) "Timeline" should be set at "DaVinci WG/Intermediate" ("Rec 709 Scene" is also fine) "and "Output" to "Rec 709 Gamma 2.4"
+- (Optional) I prefer my "Timeline" to be set to "DaVinci WG/Intermediate" ("Rec 709 Scene" is also fine) "and "Output" to "Rec 709 Gamma 2.4"
   
 ![1  Color Management](https://github.com/user-attachments/assets/59c6d16e-b9ef-4ba2-adf8-7818d9465725)
 
-- (Optional) Since my "Timeline" is set to "DaVinci WG/Intermediate", I set my clip's Color Space and Gamma manually but "auto" is also fine:
+- (Optional) Since my "Timeline" is set to "DaVinci WG/Intermediate", I set my clip's Color Space and Gamma manually (but "auto" is also fine):
   
 ![image](https://github.com/user-attachments/assets/3b5406cf-0b00-4c83-828c-3c5f92e8024e)
 
