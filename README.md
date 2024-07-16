@@ -17,7 +17,9 @@ https://github.com/user-attachments/assets/5b308fdc-5dc6-4111-9aad-328613015d19
   
 ![1  Color Management](https://github.com/user-attachments/assets/59c6d16e-b9ef-4ba2-adf8-7818d9465725)
 
-- In the "Color" tab, select those "Camera Raw" settings: "Color Space" "Rec.709", "Gamma" "Linear". You might get some bad banding if you tick "Highlight Recovery" (low saturation is fine, like recovering details on a white object). Copy/paste (middle click) to all your clips
+- In the "Color" tab, change this "Camera Raw" settings: "Gamma" "Linear".
+You might get some bad banding if you tick "Highlight Recovery" (low saturation is fine, like recovering details on a white object).
+Copy/paste (middle click) to all your clips
   
 ![2  Camera Raw](https://github.com/user-attachments/assets/64492b10-b181-4220-bb86-f8411279d62b)
 
