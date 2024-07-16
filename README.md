@@ -39,7 +39,7 @@ Alternatively, you can edit AgX_lin.comp to set the path with a text editor, sea
 
 - To copy/paste settings to all your clips (set everything to Linear for exemple), select your ungraded clips with shift and then middle click on the clip you want to copy from. Works whether you are in the Fusion or the Color tab.
 
-- Unfortunatly the black levels of my DNG sequences are not as consistent as I'd like so depending on the clip's exposure you might want to adjust the lift in Camera Raw, -0.5<0.15.
+- Unfortunatly the black levels of my DNG sequences are not as consistent as I'd like so depending on the clip's exposure you might want to adjust the lift in Camera Raw, -0.5>0.15.
 
 - (Optional) I prefer my "Timeline" to be set to "DaVinci WG/Intermediate" ("Rec 709 Scene" is also fine) "and "Output" to "Rec 709 Gamma 2.4"
   
