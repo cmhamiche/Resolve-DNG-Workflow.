@@ -22,7 +22,7 @@ https://github.com/user-attachments/assets/5b308fdc-5dc6-4111-9aad-328613015d19
 ![2  Camera Raw](https://github.com/user-attachments/assets/64492b10-b181-4220-bb86-f8411279d62b)
 
 - In the "Fusion" tab, import "AgX_lin.comp" (File ->Import->Fusion Composition...) 
-- Click on the middle node named "AgX" and set the "OCIO config path" to the "config.ocio" (Browse). Source should be "Linear BT.709", "Output Space" "AgX Base" and "Look" "None".
+Click on the middle node named "AgX" and set the "OCIO config path" to the "config.ocio" (Browse). Source should be "Linear BT.709", "Output Space" "AgX Base" and "Look" "None".
   
 ![3 Fusion](https://github.com/user-attachments/assets/e2f4a592-3389-4fc5-aad8-2927be312b42)
 
