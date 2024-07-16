@@ -7,6 +7,9 @@ Those are the main issues we're trying to solve here. It is comprised of a curve
 
 It's graded according to my taste and might be subject to change. It's using https://github.com/sobotka/AgX-Resolve.
 
+## DEMO
+
+https://github.com/user-attachments/assets/5b308fdc-5dc6-4111-9aad-328613015d19
 
 ## Usage:
 
