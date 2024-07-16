@@ -28,7 +28,7 @@ It's graded according to my taste and might be subject to change. It's using htt
 
 ## Quick notes: 
 
-- **Save your Fusion composition (File->Export->Fusion Composition...), so you don't have to set the path anymore.**
+- **Save your Fusion composition (File->Export->Fusion Composition...), so you don't have to set the path and do your settings anymore**
   
 - **If your playback isn't realtime you can set you playback resolution to half (Playback->Timeline Proxy Resolution->Half). Works great if you want to start editing/grading while MLVApp is still dumping.**
 
