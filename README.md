@@ -16,6 +16,7 @@ https://github.com/user-attachments/assets/5b308fdc-5dc6-4111-9aad-328613015d19
 ![1  Color Management](https://github.com/user-attachments/assets/59c6d16e-b9ef-4ba2-adf8-7818d9465725)
 
 
+
 #### 2. In the "Color" tab, change this "Camera Raw" settings: "Gamma" "Linear".
 
 You might get some bad banding if you tick "Highlight Recovery" (low saturation is fine, like recovering details on a white object).
@@ -24,6 +25,8 @@ Copy/paste (middle click) to all your clips
   
 ![2  Camera Raw](https://github.com/user-attachments/assets/64492b10-b181-4220-bb86-f8411279d62b)
 
+
+
 #### 3. In the "Fusion" tab, import "AgX_lin.comp" (File ->Import->Fusion Composition...)
 
 Select the node named "AgX" and set the "OCIO config path" to the "config.ocio" (Browse). Source should be "Linear BT.709", "Output Space" "AgX Base" and "Look" "None".
@@ -31,6 +34,7 @@ Select the node named "AgX" and set the "OCIO config path" to the "config.ocio" 
 Copy/paste (middle click) to all your fusion clips. You can switch back to the "Color" Tab to finish your grade.
   
 ![3 Fusion](https://github.com/user-attachments/assets/e2f4a592-3389-4fc5-aad8-2927be312b42)
+
 
 
 ## Quick notes: 
