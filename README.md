@@ -2,7 +2,7 @@
 
 A fusion composition to serve as a base grade for DNG sequences. Works with the free DaVinci Resolve version. 
 
-The way Resolve's Camera Raw color space handles DNG is different than other RAW files: it doesn't clip regardless of the timeline and it's display referred. 
+The way Resolve's Camera Raw color space handles DNG is different than other RAW files: it is a simple mapping to a display referred (not scene referred) color space and it doesn't clip anything regardless of the timeline settings. 
 Those are the main issues we're trying to solve here. It is comprised of a curve, a tone mapper and few saturation adjustments.
 
 It's graded according to my taste and might be subject to change. It's using https://github.com/sobotka/AgX-Resolve.
