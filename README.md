@@ -28,11 +28,11 @@ It's graded according to my taste and might be subject to change. It's using htt
 
 ## Quick notes: 
 
-- Works whether you are in the Fusion or the Color tab: to copy/paste settings to all your clips (set everything to Linear for exemple), select your ungraded clips with shift,  middle click on the clip you want to copy from. 
+- **Save your Fusion composition (File->Export->Fusion Composition...), so you don't have to set the path anymore.**
+  
+- **If your playback isn't realtime you can set you playback resolution to half (Playback->Timeline Proxy Resolution->Half). Works great if you want to start editing/grading while MLVApp is still dumping.**
 
-- Save your Fusion composition (File->Export->Fusion Composition...), so you don't have to set the path anymore.
-
-- If your playback isn't realtime you can set you playback resolution to half (Playback->Timeline Proxy Resolution->Half). Works great if you want to start editing/grading while MLVApp is still dumping.
+- To copy/paste settings to all your clips (set everything to Linear for exemple), select your ungraded clips with shift,  middle click on the clip you want to copy from. Works whether you are in the Fusion or the Color tab.
 
 - You can edit AgX_lin.comp with a text editor, search for OCIOConfig = Input { Value =
 
