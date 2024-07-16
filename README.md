@@ -45,6 +45,6 @@ Alternatively, you can edit AgX_lin.comp to set the path with a text editor, sea
 
 - (Optional) Since my "Timeline" is set to "DaVinci WG/Intermediate", I set my clip's Color Space and Gamma manually (but "auto" is also fine):
   
-![image](https://github.com/user-attachments/assets/3b5406cf-0b00-4c83-828c-3c5f92e8024e)
+![349058366-3b5406cf-0b00-4c83-828c-3c5f92e8024e](https://github.com/user-attachments/assets/6a5ffb92-4564-49a6-b6f1-8e4feeb77efe)
 
  
