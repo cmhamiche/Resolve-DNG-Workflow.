@@ -14,7 +14,7 @@ https://github.com/user-attachments/assets/5b308fdc-5dc6-4111-9aad-328613015d19
 
 #### 1. In the "Fusion" tab, import "AgX_lin.comp" (File ->Import->Fusion Composition...)
 
-Select the node named "AgX" and set the "OCIO config path" to the "config.ocio" (Browse). Source should be "Linear BT.709", "Output Space" "AgX Base" and "Look" "None".
+Select the node named "AgX" and set the "OCIO config path" so it is pointing to "config.ocio" (Browse). Source should be "Linear BT.709", "Output Space" "AgX Base" and "Look" "None".
 
 Copy/paste (middle click) to all your fusion clips. You can switch to the "Color" tab.
   
