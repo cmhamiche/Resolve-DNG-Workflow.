@@ -1,7 +1,7 @@
 # A fusion composition to serve as a base grade for DNG sequences. Works with the free DaVinci Resolve version. 
 
 The way Resolve's Camera Raw handles DNG is different than other RAW video formats: it is a simple mapping to a display referred (not scene referred) workspace and it doesn't clip anything regardless of the timeline settings. 
-Those are the main issues we're trying to solve here. It is comprised of a curve, a tone mapper and few saturation adjustments.
+Those are the main issues we're trying to solve here (plus some metadata not passed so we also need some color corrections). It is comprised of a curve, a tone mapper and few saturation adjustments.
 
 It's graded according to my taste and might be subject to change. It's using https://github.com/sobotka/AgX-Resolve.
 
@@ -40,13 +40,3 @@ Alternatively, you can edit AgX_lin.comp to set the path with a text editor, sea
 - To copy/paste settings to all your clips (set everything to Linear for exemple), select your ungraded clips with shift and then middle click on the clip you want to copy from. Works whether you are in the Fusion or the Color tab.
 
 - Unfortunatly the black levels of my DNG sequences are not as consistent as I'd like so depending on the clip's exposure you might want to adjust the lift in Camera Raw, -0.5>0.15.
-
-- (Optional) I prefer my "Timeline" to be set to "DaVinci WG/Intermediate" ("Rec 709 Scene" is also fine) "and "Output" to "Rec 709 Gamma 2.4"
-  
- ![1  Color Management](https://github.com/user-attachments/assets/59c6d16e-b9ef-4ba2-adf8-7818d9465725)
-
-- (Optional) Since my "Timeline" is set to "DaVinci WG/Intermediate", I set my clip's Color Space and Gamma manually (but "auto" is also fine):
-  
- ![349058366-3b5406cf-0b00-4c83-828c-3c5f92e8024e](https://github.com/user-attachments/assets/6a5ffb92-4564-49a6-b6f1-8e4feeb77efe)
-
- 
