@@ -28,7 +28,7 @@ Copy/paste* to all your clips. You can adjust your "Camera Raw" settings (like e
 ![2  Camera Raw](https://github.com/user-attachments/assets/64492b10-b181-4220-bb86-f8411279d62b)
 
 
-* To copy/paste settings to all your clips (set everything to Linear for exemple), select your ungraded clips with shift and then middle click on the clip you want to copy from. Works whether you are in the Fusion or the Color tab.
+*To copy/paste settings to all your clips (set everything to Linear for exemple), select your ungraded clips with shift and then middle click on the clip you want to copy from. Works whether you are in the Fusion or the Color tab.
 
 ## Quick notes: 
 
