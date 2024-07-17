@@ -1,39 +1,37 @@
 Composition {
-	CurrentTime = 0,
-	RenderRange = { 0, 1361 },
-	GlobalRange = { 0, 1362 },
-	CurrentID = 557,
+	CurrentTime = 15,
+	RenderRange = { 0, 2231 },
+	GlobalRange = { 0, 2231 },
+	CurrentID = 13,
 	HiQ = true,
-	Proxy = true,
 	PlaybackUpdateMode = 0,
 	Version = "DaVinci Resolve Studio 18.6.6.0007",
 	SavedOutputs = 0,
 	HeldTools = 0,
 	DisabledTools = 0,
 	LockedTools = 0,
-	AudioOffset = 451,
+	AudioOffset = 0,
 	Resumable = true,
 	OutputClips = {
 	},
 	Tools = {
 		MediaIn1 = Loader {
 			ExtentSet = true,
-			CtrlWZoom = false,
 			CustomData = {
 				MediaProps = {
 					MEDIA_AUDIO_TRACKS_DESC = {
 						{
 							MEDIA_AUDIO_BIT_DEPTH = 32,
-							MEDIA_AUDIO_FRAME_RATE = 24,
+							MEDIA_AUDIO_FRAME_RATE = 29.97002997003,
 							MEDIA_AUDIO_NUM_CHANNELS = 2,
 							MEDIA_AUDIO_SAMPLE_RATE = 48000,
 							MEDIA_AUDIO_START_TIME = 0,
-							MEDIA_AUDIO_TRACK_ID = "12da3cb1-fba0-49fd-8db3-dc9717c8a8f3",
-							MEDIA_AUDIO_TRACK_NAME = "M14-0921_1_2024-07-14_0001_C0000_[000000-001362].dng"
+							MEDIA_AUDIO_TRACK_ID = "18e8f847-00df-4d78-b2e9-a05dbcd2b1b8",
+							MEDIA_AUDIO_TRACK_NAME = "M17-1754_1_2024-07-17_0001_C0000_[000000-002231].dng"
 						},
 						{
 							MEDIA_AUDIO_BIT_DEPTH = 32,
-							MEDIA_AUDIO_FRAME_RATE = 24,
+							MEDIA_AUDIO_FRAME_RATE = 29.97002997003,
 							MEDIA_AUDIO_NUM_CHANNELS = 2,
 							MEDIA_AUDIO_SAMPLE_RATE = 48000,
 							MEDIA_AUDIO_START_TIME = 0,
@@ -44,28 +42,27 @@ Composition {
 					MEDIA_AUDIO_TRACKS_NUM = 2,
 					MEDIA_FORMAT_TYPE = "DNG",
 					MEDIA_HAS_AUDIO = true,
-					MEDIA_HEIGHT = 1206,
+					MEDIA_HEIGHT = 696,
 					MEDIA_IS_SOURCE_RES = true,
 					MEDIA_LAYER_DESC = {
 					},
 					MEDIA_MARK_IN = 0,
-					MEDIA_MARK_OUT = 1361,
-					MEDIA_NAME = "M14-0921_1_2024-07-14_0001_C0000_[000000-001362].dng",
-					MEDIA_NUM_FRAMES = 1363,
+					MEDIA_MARK_OUT = 2231,
+					MEDIA_NAME = "M17-1754_1_2024-07-17_0001_C0000_[000000-002231].dng",
+					MEDIA_NUM_FRAMES = 2232,
 					MEDIA_NUM_LAYERS = 0,
 					MEDIA_PAR = 1,
-					MEDIA_PATH = "C:\\Users\\Windows\\Desktop\\M14-0921_1_2024-07-14_0001_C0000\\M14-0921_1_2024-07-14_0001_C0000_[000000-001362].dng",
-					MEDIA_SRC_FRAME_RATE = 23.976023976024,
+					MEDIA_PATH = "C:\\Users\\Windows\\Desktop\\M17-1754_1_2024-07-17_0001_C0000\\M17-1754_1_2024-07-17_0001_C0000_[000000-002231].dng",
+					MEDIA_SRC_FRAME_RATE = 29.97002997003,
 					MEDIA_START_FRAME = 0,
-					MEDIA_WIDTH = 2880
+					MEDIA_WIDTH = 1736
 				},
 			},
 			Inputs = {
-				GlobalOut = Input { Value = 1813, },
+				GlobalOut = Input { Value = 2231, },
 				AudioTrack = Input { Value = FuID { "Timeline Audio" }, },
-				Layer = Input { Value = "<no layers>", },
-				ClipTimeEnd = Input { Value = 1362, },
-				HoldFirstFrame = Input { Value = 451, },
+				Layer = Input { Value = "0", },
+				ClipTimeEnd = Input { Value = 2231, },
 				["Gamut.SLogVersion"] = Input { Value = FuID { "SLog2" }, },
 				LeftAudio = Input {
 					SourceOp = "Left",
@@ -75,19 +72,16 @@ Composition {
 					SourceOp = "Right",
 					Source = "Data",
 				},
-				CommentsNest = Input { Value = 0, },
-				FrameRenderScriptNest = Input { Value = 0, },
 			},
-			ViewInfo = OperatorInfo { Pos = { 165, 49.5 } },
+			ViewInfo = OperatorInfo { Pos = { 110, 49.5 } },
 			Clips = {
 				Clip {
 					ID = "Clip1",
-					Filename = "C:\\Users\\Windows\\Desktop\\M14-0921_1_2024-07-14_0001_C0000\\M14-0921_1_2024-07-14_0001_C0000_000000.dng",
-					Length = 1363,
+					Filename = "C:\\Users\\Windows\\Desktop\\M17-1754_1_2024-07-17_0001_C0000\\M17-1754_1_2024-07-17_0001_C0000_000000.dng",
+					Length = 2232,
 					LengthSetManually = true,
-					GlobalEnd = 1813,
-					TrimOut = 1362,
-					ExtendFirst = 451,
+					GlobalEnd = 2231,
+					TrimOut = 2231,
 				}
 			}
 		},
@@ -96,36 +90,25 @@ Composition {
 		Right = AudioDisplay {
 			CtrlWZoom = false,
 		},
-		MediaOut1 = Saver {
-			Inputs = {
-				Index = Input { Value = "0", },
-				Input = Input {
-					SourceOp = "Saturation",
-					Source = "Output",
-				},
-				CommentsNest = Input { Value = 0, },
-				FrameRenderScriptNest = Input { Value = 0, },
-			},
-			ViewInfo = OperatorInfo { Pos = { 605, 49.5 } },
-		},
 		Curve = ColorCurves {
 			PickColor = true,
+			CtrlWZoom = false,
 			NameSet = true,
 			Inputs = {
 				Red = Input {
-					SourceOp = "CurveRed",
+					SourceOp = "ColorCurves1Red",
 					Source = "Value",
 				},
 				Green = Input {
-					SourceOp = "CurveGreen",
+					SourceOp = "ColorCurves1Green",
 					Source = "Value",
 				},
 				Blue = Input {
-					SourceOp = "CurveBlue",
+					SourceOp = "ColorCurves1Blue",
 					Source = "Value",
 				},
 				Alpha = Input {
-					SourceOp = "CurveAlpha",
+					SourceOp = "ColorCurves1Alpha",
 					Source = "Value",
 				},
 				NumberOfSamplesOnMatchCurve = Input { Value = 64, },
@@ -135,47 +118,48 @@ Composition {
 					Source = "Output",
 				},
 			},
-			ViewInfo = OperatorInfo { Pos = { 275, 49.5 } },
+			ViewInfo = OperatorInfo { Pos = { 220, 49.5 } },
 			Tools = {
-				CurveRed = LUTBezier {
+				ColorCurves1Red = LUTBezier {
 					KeyColorSplines = {
 						[0] = {
-							[0.002] = { 0, RH = { 0.0362176636054456, 0.00653133797599648 }, Flags = { Linear = true } },
-							[0.35] = { 1, LH = { 0.188225639318338, 0.603740431928311 } }
+							[0.002] = { 0, RH = { 0.0401789883268482, 0.0124777183600712 }, Flags = { Linear = true } },
+							[0.35] = { 1, LH = { 0.214544747081712, 0.672014260249554 } }
 						}
 					},
 					SplineColor = { Red = 255, Green = 52, Blue = 52 },
-					CtrlWZoom = false,
+					NameSet = true,
 				},
-				CurveBlue = LUTBezier {
+				ColorCurves1Green = LUTBezier {
 					KeyColorSplines = {
 						[0] = {
-							[0.002] = { 0, RH = { 0.0362176636054456, 0.00653133797599648 }, Flags = { Linear = true } },
-							[0.35] = { 1, LH = { 0.188225639318338, 0.603740431928311 } }
+							[0.002] = { 0, RH = { 0.0401789883268482, 0.0124777183600712 }, Flags = { Linear = true } },
+							[0.35] = { 1, LH = { 0.214544747081712, 0.672014260249554 } }
+						}
+					},
+					SplineColor = { Red = 0, Green = 255, Blue = 0 },
+					NameSet = true,
+				},
+				ColorCurves1Blue = LUTBezier {
+					KeyColorSplines = {
+						[0] = {
+							[0.002] = { 0, RH = { 0.0401789883268482, 0.0124777183600712 }, Flags = { Linear = true } },
+							[0.35] = { 1, LH = { 0.214544747081712, 0.672014260249554 } }
 						}
 					},
 					SplineColor = { Red = 68, Green = 68, Blue = 255 },
-					CtrlWZoom = false,
+					NameSet = true,
 				},
-				CurveAlpha = LUTBezier {
+				ColorCurves1Alpha = LUTBezier {
 					KeyColorSplines = {
 						[0] = {
-							[0.002] = { 0, RH = { 0.0362176636054456, 0.00653133797599648 }, Flags = { Linear = true } },
-							[0.35] = { 1, LH = { 0.188225639318338, 0.603740431928311 } }
+							[0.002] = { 0, RH = { 0.0401789883268482, 0.0124777183600712 }, Flags = { Linear = true } },
+							[0.35] = { 1, LH = { 0.214544747081712, 0.672014260249554 } }
 						}
 					},
 					SplineColor = { Red = 204, Green = 204, Blue = 204 },
 					CtrlWZoom = false,
-				},
-				CurveGreen = LUTBezier {
-					KeyColorSplines = {
-						[0] = {
-							[0.002] = { 0, RH = { 0.0362176636054456, 0.00653133797599648 }, Flags = { Linear = true } },
-							[0.35] = { 1, LH = { 0.188225639318338, 0.603740431928311 } }
-						}
-					},
-					SplineColor = { Red = 0, Green = 255, Blue = 0 },
-					CtrlWZoom = false,
+					NameSet = true,
 				}
 			},
 		},
@@ -191,9 +175,9 @@ Composition {
 					Source = "Output",
 				},
 			},
-			ViewInfo = OperatorInfo { Pos = { 385, 49.5 } },
+			ViewInfo = OperatorInfo { Pos = { 330, 49.5 } },
 		},
-		Saturation = ColorGain {
+		ColorCorrection = ColorGain {
 			NameSet = true,
 			Inputs = {
 				SaturationRed = Input { Value = 1.35, },
@@ -230,7 +214,17 @@ Composition {
 					Source = "Output",
 				},
 			},
-			ViewInfo = OperatorInfo { Pos = { 495, 49.5 } },
+			ViewInfo = OperatorInfo { Pos = { 440, 49.5 } },
+		},
+		MediaOut1 = Saver {
+			Inputs = {
+				Index = Input { Value = "0", },
+				Input = Input {
+					SourceOp = "ColorCorrection",
+					Source = "Output",
+				},
+			},
+			ViewInfo = OperatorInfo { Pos = { 550, 49.5 } },
 		}
 	},
 	Frames = {
@@ -246,9 +240,9 @@ Composition {
 			ZoneInfo = { ["!Right"] = {
 				}, ["!Left"] = {
 				}, AuxLeft = { Expanded = true }, Right = { Expanded = true, }, Left = { Expanded = false, }, AuxRight = { Expanded = true } },
-			ViewInfo = { Viewer1 = { Show = true, RatioX = 0.972082639264466, RatioY = 0.01, }, InnerLeft = { RatioY = 100, PixelX = 420, }, MainSplit = { RatioX = 100, RatioY = 0.998583569405099, }, CenterSplit = { RatioX = 1, RatioY = 100, }, Viewer2 = { Show = true, RatioX = 1.08094061654948, RatioY = 0.01, }, Comments = { Show = false }, Time = { Show = true, RatioX = 100, }, InnerColumns = { RatioX = 100, RatioY = 2.0014164305949, }, Keyframes = { Show = false, }, LayoutStrip = { Show = true, }, Inspector = { Show = true, RatioX = 100, RatioY = 1, }, InnerRight = {
+			ViewInfo = { Viewer1 = { Show = true, RatioX = 0.972817173524149, RatioY = 0.01, }, InnerLeft = { RatioY = 100, PixelX = 420, }, MainSplit = { RatioX = 100, RatioY = 0.998583569405099, }, CenterSplit = { RatioX = 0.933199732798931, RatioY = 100, }, Viewer2 = { Show = true, RatioX = 1.0802060822898, RatioY = 0.01, }, Comments = { Show = false }, Time = { Show = true, RatioX = 100, }, InnerColumns = { RatioX = 100, RatioY = 2.0014164305949, }, Keyframes = { Show = false, }, LayoutStrip = { Show = true, }, Inspector = { Show = true, RatioX = 100, RatioY = 1, }, InnerRight = {
 				}, Clips = { Show = true, Adjust = false, RatioX = 100, MRU = 2 }, OuterColumns = { RatioX = 100, RatioY = 1, }, Effects = { Show = false, }, ActionStrip = { Show = true, RatioX = 100, }, Metadata = { Show = false, }, OuterLeft = {
-				}, ViewerSplit = { RatioX = 100, RatioY = 1, }, Nodes = { Show = true, RatioX = 1, RatioY = 100, }, OuterRight = { RatioY = 100, PixelX = 420, }, MediaPool = { Show = true, Adjust = false, RatioX = 1, RatioY = 100, MRU = 1 }, Spline = { Show = false, } },
+				}, ViewerSplit = { RatioX = 100, RatioY = 1, }, Nodes = { Show = true, RatioX = 1, RatioY = 100, }, OuterRight = { RatioY = 100, PixelX = 520, }, MediaPool = { Show = true, Adjust = false, RatioX = 1, RatioY = 100, MRU = 1 }, Spline = { Show = false, } },
 			Views = ordered() {
 				MediaPool = "MediaPoolView",
 				Effects = MultiView {
@@ -272,7 +266,7 @@ Composition {
 						Direction = "Horizontal",
 						PipeStyle = "Direct",
 						RootScale = 1,
-						RootOffset = { 26.6667, -20.697 }
+						RootOffset = { 26, 29 }
 					}
 				},
 				Keyframes = MultiView {
@@ -292,7 +286,7 @@ Composition {
 						KeyFrameView = {
 							Position = { Left = 232, Bottom = 324 },
 							ScaleX = 2.12765957446809,
-							OffsetX = -51.0638297872341,
+							OffsetX = -51.063829787234,
 							OffsetY = 0,
 							AutoScaling = "scroll",
 							AutoSnapTo = "frame",
@@ -353,61 +347,44 @@ Composition {
 				Clips = "ClipsView",
 				Metadata = "MetadataView"
 			},
-			Layout = { { ID = "LayoutStrip", FixedY = 36, Flat = true, Resolve = false }, { { { ID = "MediaPool", Fusion = false, RatioX = 1 }, { ID = "Effects", RatioX = 1 }, PixelX = 420, Rows = 2, PaneID = "OuterLeft", Zone = "Left" }, { { { { ID = "MediaPool", Fusion = false, RatioX = 1 }, { ID = "Effects", RatioX = 1 }, PaneID = "InnerLeft", MaxViews = 1, PixelX = 420, Rows = 2, Zone = "!Left" }, { { { ID = "Viewer1", RatioY = 0.01, RatioX = 1 }, { ID = "Viewer2", RatioX = 1 }, RatioY = 1, Columns = 2, PaneID = "ViewerSplit" }, { ID = "Time", FixedY = 83, Flat = true }, RatioX = 1, Rows = 2 }, { { ID = "Inspector", RatioY = 1 }, { ID = "Metadata", RatioY = 1, Fusion = false }, PaneID = "InnerRight", MaxViews = 1, PixelX = 420, Rows = 2, Zone = "!Right" }, RatioY = 2, Columns = 3, PaneID = "InnerColumns" }, { ID = "ActionStrip", FixedY = 50, Flat = true }, { { ID = "Nodes", RatioX = 1 }, { ID = "Spline", RatioX = 1 }, { ID = "Keyframes", RatioX = 1 }, RatioY = 1, Columns = 3, PaneID = "MainSplit" }, { LARGE_FixedY = 160, ID = "Clips", Fusion = false, MEDIUM_FixedY = 138, SMALL_FixedY = 110 }, RatioX = 1, Rows = 4, PaneID = "CenterSplit" }, { { ID = "Inspector", RatioY = 1 }, { ID = "Metadata", RatioY = 1, Fusion = false }, PixelX = 420, Rows = 2, PaneID = "OuterRight", Zone = "Right" }, RatioY = 1, Columns = 3, PaneID = "OuterColumns" }, RatioX = 1, Rows = 2, RatioY = 1 },
+			Layout = { { ID = "LayoutStrip", FixedY = 36, Resolve = false, Flat = true }, { { { ID = "MediaPool", Fusion = false, RatioX = 1 }, { ID = "Effects", RatioX = 1 }, Zone = "Left", Rows = 2, PaneID = "OuterLeft", PixelX = 420 }, { { { { ID = "MediaPool", Fusion = false, RatioX = 1 }, { ID = "Effects", RatioX = 1 }, PaneID = "InnerLeft", MaxViews = 1, PixelX = 420, Rows = 2, Zone = "!Left" }, { { { ID = "Viewer1", RatioY = 0.01, RatioX = 1 }, { ID = "Viewer2", RatioX = 1 }, RatioY = 1, Columns = 2, PaneID = "ViewerSplit" }, { ID = "Time", FixedY = 83, Flat = true }, RatioX = 1, Rows = 2 }, { { ID = "Inspector", RatioY = 1 }, { ID = "Metadata", RatioY = 1, Fusion = false }, PaneID = "InnerRight", MaxViews = 1, PixelX = 420, Rows = 2, Zone = "!Right" }, RatioY = 2, Columns = 3, PaneID = "InnerColumns" }, { ID = "ActionStrip", FixedY = 50, Flat = true }, { { ID = "Nodes", RatioX = 1 }, { ID = "Spline", RatioX = 1 }, { ID = "Keyframes", RatioX = 1 }, RatioY = 1, Columns = 3, PaneID = "MainSplit" }, { Fusion = false, ID = "Clips", LARGE_FixedY = 160, MEDIUM_FixedY = 138, SMALL_FixedY = 110 }, RatioX = 1, Rows = 4, PaneID = "CenterSplit" }, { { ID = "Inspector", RatioY = 1 }, { ID = "Metadata", RatioY = 1, Fusion = false }, Zone = "Right", Rows = 2, PaneID = "OuterRight", PixelX = 420 }, RatioY = 1, Columns = 3, PaneID = "OuterColumns" }, RatioX = 1, Rows = 2, RatioY = 1 },
 			TopBar = { Left = { "Left", "MediaPool", "Effects", "Clips", "Nodes", "Console" }, Right = { "Spline", "Keyframes", "Metadata", "Inspector", "Right" } }
 		}
 	},
 	Prefs = {
 		Comp = {
+			Paths = {
+				Map = {
+					["ResolveCaches:"] = "C:\\Users\\Windows\\CacheClip\\15c46931-e82d-4294-96c1-247b1c33ebb0\\9fa7cc6d-aa94-4db2-b221-f917edc1e491\\00c8609e-81ca-434a-a0a3-23386d328d77\\Fusion"
+				},
+			},
+			LastFile = "D:\\Logiciels\\Resolve_DNG_Workflow-main\\Grades\\AgX\\config.ocio",
 			Interactive = {
 				Proxy = {
-					Scale = 4,
+					Scale = 1,
 				},
+			},
+			FrameFormat = {
+				GuideRatio = 1.77777777777778,
+				DepthInteractive = 3,
+				DepthPreview = 3,
+				Rate = 29.9700298309326,
+				Width = 1736,
+				Height = 696,
+				DepthFull = 3,
+			},
+			Unsorted = {
+				GlobalEnd = 2231,
 			},
 			Views = {
 				RightView = {
 					Viewer = {
-						ID = "GLImageViewer",
-						Region = { Top = 1, Auto = false, Bottom = 0, Enable = false, Right = 1, Left = 0, },
-						ScaleMode = 1,
-						Channel = 4294967295,
 					},
-					SideB = { PrevCtrlInactiveColor = 4278255360, PickW = 1, PickH = 1, PrevCtrlActiveColor = 4278190335, Viewer = { EnableLUTs = false, ScaleMode = 1, NearZ = 0, LUTPlugin = "FusionViewLUT", Channel = 4294967295, FitMarginX = 0, FitMarginType = 0, FarZ = -1000, FitMarginY = 0 } },
-					SubView = { Enabled = false, Navigator = false, GLImageViewer = { AutoBounds = true }, Viewer = { ScaleMode = 0, PixelGrid = true, Smooth = false }, GL3DHistogramViewer = { AutoBounds = true }, Magnifier = false, ID = "GLVectorViewer", GLWaveformViewer = { AutoBounds = true }, GLColorInspector = { AutoBounds = true }, GLHistogramViewer = { AutoBounds = true } },
 				},
 				LeftView = {
-					Viewer = {
-						ScaleMode = 0
-					},
-					SideB = { PrevCtrlInactiveColor = 4278255360, PickW = 1, PickH = 1, PrevCtrlActiveColor = 4278190335, Viewer = { EnableLUTs = false, ScaleMode = 0, NearZ = 0, LUTPlugin = "FusionViewLUT", FitMarginX = 0, ID = "GLHistogramViewer", FitMarginType = 0, FarZ = -1000, FitMarginY = 0 } },
-					SubView = { Enabled = false, Navigator = false, GLImageViewer = { AutoBounds = true }, Viewer = { ScaleMode = 0 }, GLVectorViewer = { AutoBounds = true }, Magnifier = false, ID = "GLImageViewer", GLWaveformViewer = { AutoBounds = true }, GLHistogramViewer = { AutoBounds = true } },
 				},
 				View1 = {
-					PrevCtrlInactiveColor = 4278255360,
-					PickW = 1,
-					PickH = 1,
-					PrevCtrlActiveColor = 4278190335,
-					SideB = { PrevCtrlInactiveColor = 4278255360, PickW = 1, PickH = 1, PrevCtrlActiveColor = 4278190335, Viewer = { EnableLUTs = false, LUTPlugin = "FusionViewLUT", NearZ = 0, FitMarginX = 0, FitMarginType = 0, FarZ = -1000, FitMarginY = 0 } }
 				},
-			},
-			Paths = {
-				Map = {
-					["ResolveCaches:"] = "C:\\Users\\Windows\\CacheClip\\4783fc9d-da6a-426f-baf0-875b7977338f\\0197505d-fa1d-4ae7-8445-4458ba0e991a\\ad6fa5e9-6e67-47f1-826e-f1907e627bde\\Fusion"
-				},
-			},
-			FrameFormat = {
-				Name = "Ultra HD 2160",
-				Width = 3840,
-				Height = 2160,
-				Rate = 24,
-				GuideRatio = 1.77777777777778,
-				DepthFull = 3,
-				DepthPreview = 3,
-				DepthInteractive = 3,
-			},
-			LastFile = "C:\\ProgramData\\Blackmagic Design\\DaVinci Resolve\\Grades\\AgX\\config.ocio",
-			Unsorted = {
-				GlobalEnd = 1362
 			},
 		}
 	},
