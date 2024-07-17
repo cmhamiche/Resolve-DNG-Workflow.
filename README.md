@@ -16,19 +16,23 @@ https://github.com/user-attachments/assets/5b308fdc-5dc6-4111-9aad-328613015d19
 
 Select the node named "AgX" and set the "OCIO config path" so it is pointing to "config.ocio" (source should be "Linear BT.709", "Output Space" "AgX Base" and "Look" "None").
 
-Copy/paste (middle click) to all your fusion clips. You can switch to the "Color" tab.
+Copy/paste*  to all your fusion clips. You can switch to the "Color" tab.
   
 ![3 Fusion](https://github.com/user-attachments/assets/e2f4a592-3389-4fc5-aad8-2927be312b42)
 
 
 #### 2. In the "Color" tab, change this "Camera Raw" settings: "Gamma" "Linear".
 
-Copy/paste (middle click) to all your clips. You can adjust your "Camera Raw" settings (like exposure, temperature, etc) if needed and start grading as usual.
+Copy/paste* to all your clips. You can adjust your "Camera Raw" settings (like exposure, temperature, etc) if needed and start grading as usual.
   
 ![2  Camera Raw](https://github.com/user-attachments/assets/64492b10-b181-4220-bb86-f8411279d62b)
 
 
+* To copy/paste settings to all your clips (set everything to Linear for exemple), select your ungraded clips with shift and then middle click on the clip you want to copy from. Works whether you are in the Fusion or the Color tab.
+
 ## Quick notes: 
+
+- **You can skip the whole copy/paste in the "Color" tab settings if you set your Project Settings instead.**
 
 - **Save your Fusion composition (File->Export->Fusion Composition...), so you don't have to set the path and do your settings anymore.**
 Alternatively, you can edit AgX_lin.comp to set the path with a text editor, search for "OCIOConfig = Input", exemple: OCIOConfig = Input { Value = "D:\\Resolve_DNG_Workflow\\Grades\\AgX\\config.ocio", },
@@ -37,6 +41,5 @@ Alternatively, you can edit AgX_lin.comp to set the path with a text editor, sea
 
 - If you tick "Highlight Recovery" you might get some bad banding where it's overexposed (low saturation is fine, like recovering details on a white object).
 
-- To copy/paste settings to all your clips (set everything to Linear for exemple), select your ungraded clips with shift and then middle click on the clip you want to copy from. Works whether you are in the Fusion or the Color tab.
-
 - Unfortunatly the black levels of my DNG sequences are not as consistent as I'd like so, depending on the clip's exposure, you might want to adjust the lift in Camera Raw (-0.5>0.15).
+
